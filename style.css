@@ -1,1 +1,93 @@
-
+body {
+  text-align: center;
+  overflow-x: hidden;
+}
+.navmenu {
+  display: inline-block;
+  padding: .1vh;
+  margin-left: 2vh;
+  font-size: 1.5em;
+}
+li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(207, 10, 10);
+  z-index: 1;
+}
+#welcome-section {
+  width: 100vw;
+  height: 49vmax;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgb(37, 37, 37), 50%, black);
+  font-family: sans-serif;
+}
+.welcome {
+  margin-top: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  border-radius: 50%;
+  height: 30%;
+  width: auto;
+}
+#name {
+  font-size: 3em;
+  top: 6vh;
+  color: white;
+}
+#description {
+  color: red;
+}
+main {
+  position: relative;
+  top: 100vh;
+  color: aliceblue;
+  flex-direction: column;
+}
+.info {
+  margin: auto;
+  width: 60%;
+  height: 22%;
+  background: linear-gradient(90deg, aqua 50%, pink, black);
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8%;
+  border: 5px, solid, black;
+}
+.info ul {
+  position: absolute;
+  text-align: left;
+  list-style: none;
+  left: 35%;
+  font-size: 1.2em;
+}
+section .info {
+  border: 5px, solid, black;
+}
+.info h2 {
+  font-size: 3em;
+  text-align: left;
+  color: brown;
+  margin-left: 2%;
+  margin-bottom: 0%;
+}
+code {
+  position: absolute;
+  text-align: left;
+  left: 37%;
+  font-size: 1.2em;
+  margin-top: 1%;
+}

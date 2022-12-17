@@ -61,11 +61,10 @@ main {
   margin: auto;
   width: 60%;
   height: 22%;
-  background: linear-gradient(90deg, aqua 50%, pink, black);
+  background: linear-gradient(90deg, rgb(32, 80, 65) 60%, pink);
   align-items: center;
   justify-content: center;
   padding-bottom: 8%;
-  border: 5px, solid, black;
 }
 .info ul {
   position: absolute;
@@ -74,8 +73,12 @@ main {
   left: 35%;
   font-size: 1.2em;
 }
-section .info {
-  border: 5px, solid, black;
+.info p {
+  position: absolute;
+  text-align: left;
+  list-style: none;
+  left: 35%;
+  font-size: 1.2em;
 }
 .info h2 {
   font-size: 3em;
@@ -90,4 +93,27 @@ code {
   left: 37%;
   font-size: 1.2em;
   margin-top: 1%;
+}
+footer {
+  display: flex;
+  left: 0;
+  position: relative;
+  bottom: -105vh;
+  height: 5vh;
+  width: 100%;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(141, 141, 141);
+  justify-content: space-evenly;
+}
+.footer img {
+  height: 5vh;
+  width: auto;
+  align-self: center;
+  float: right;
+  background-size: cover;
+}
+.footer div {
+  font-size: 2em;
 }

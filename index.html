@@ -1,1 +1,87 @@
-
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV-3</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <header>
+    <nav id="navbar">
+        <ul id="navlist">
+            <li class="navmenu"><a href="#skills">Skills</a></li>
+            <li class="navmenu"><a href="#projects">Projects</a></li>
+            <li class="navmenu"><a href="#languages">Languages</a></li>
+            <li class="navmenu"><a href="#courses">Courses</a></li>
+            <li class="navmenu"><a href="#code_example">Code Example</a></li>
+            <li class="navmenu"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+ </header>
+    <section id="welcome-section">
+    <div class="welcome">
+    <img src="avatar.jpg" alt="my avatar" class="avatar">
+    <p id="name">Pershutov Dmitriy</p>
+    <h1 id="description"><i>Junior Front-End developer</i></h1>
+    </div>
+    </section>
+<main>
+    <section class="info">
+        <h2 id="about_me">About me</h2>
+        <p>I like to study. And here am I. Try to learn something about JS.<br>
+            Began from freeCodeCamp and then decided to try RSscool.</p>
+    </section>
+    <section class="info">
+        <h2 id="contact">Contacts</h2>
+        <ul>
+            <li>Location: St.-Petersburg, Russia</li>
+            <li>Phone: +7-900-653-76-43</li>
+            <li>Email: justeast52@gmail.com</li>
+            <li>GitHub: Vertix9</li>
+        </ul>
+    </section>
+    <section class="info">
+        <h2 id="skills">Skills</h2>
+        <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+            <li>VS Code</li>
+        </ul>
+    </section>
+    <section class="info">
+        <h2 id="code_example">Code example</h2>
+        <code class="new_info">function numberJoy(n) {<br>
+            let array = [...n.toString()].map(Number)<br>
+            let sum = array.reduce((a, b) => a + b, 0)<br>
+            let reversed = String(sum).split("").reverse().join("");<br>
+            return n == reversed * sum<br>
+          }</code>
+    </section>
+    <section class="info">
+        <h2 id="courses">Courses</h2>
+            <ul>
+                <li>Responsive Web Design on the <a href="https://www.freecodecamp.org/">freeCodeCamp</a> (complited)</li>
+                <li>JavaScript Algorithms and Data Structures <a href="https://www.freecodecamp.org/">freeCodeCamp</a> (in progress)</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+    </section>
+    <section class="info">
+        <h2 id="languages">Languages</h2>
+        <ul>
+            <li>English: my score indicates that your level of English is in the<br> 
+                range of C1 ADVANCED to C2 PROFICIENT, according to the<br> 
+                guidelines set by the Common European Framework of Reference<br> 
+                (CEFR) (according to the online test at <a href="https://github.com/Vertix9/rsschool-cv/blob/gh-pages/www.efset.org">EFset)</a></li>
+            <li>Russian: native</li>
+        </ul>
+    </section>
+</main>
+<footer class="footer">
+    <a href="https://github.com/Vertix9"><img src="github.png" class="git" alt="git"></a>
+    <div>2022</div>
+   <a href="https://rs.school/js/"><img src="rsschool.png" class="logo" alt="logo"></a>
+ </footer>
+</body>
+</html>
